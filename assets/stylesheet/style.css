@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font: 16px;
+    color: darkblue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    margin-right: auto;
+
+}
+
+/* .navbar {
+    background-color: darkgray;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    height: max-content;
+}
+
+.navbar ul{
+display: flex;
+list-style-type: none;
+
+}
+
+.navbar ul li{
+    padding: 25px;
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+} */
