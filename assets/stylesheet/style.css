@@ -65,6 +65,8 @@ header {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-top: 5%;
+    grid-gap: 35px;
+    float: left;
 }
 
 .bio {
@@ -81,5 +83,10 @@ header {
     height: 350px;
     border-style: solid;
     border-color: black;
-    border
+    border-width: 4px;
+    
+}
+
+img:hover{
+    opacity: 0.8;
 }
