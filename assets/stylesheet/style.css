@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: dimgrey;
     text-align: center;
 }
 /*==================================
@@ -17,10 +17,23 @@ li, a {
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     font-weight: bold;
-    text-decoration: none;
+    /* text-decoration: none; */
     display: inline-block;
     padding: 0px 5px;
     color: black;
+}
+
+h3{
+    color: crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    bottom: 27px;
+    left: 32%;
+}
+
+#moon{
+    height: 240px;
+    width: 100%;
 }
 
 li, a:hover {
