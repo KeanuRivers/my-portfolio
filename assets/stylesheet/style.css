@@ -96,3 +96,10 @@ img:hover{
       background-color: lightblue;
     }
   }
+
+ .card-body{
+   justify-content: right;
+   position: relative;
+   padding-right: 10%;
+
+ }
